@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       model:
-        description: 'Your Model Number'
+        description: 'SM-145P'
         required: true
 
       recovery_link:
-        description: 'Enter the Direct Download Link (.img / .lz4 / .zip):'
+        description: https://filebin.net/archive/kzzcis1xkeyqja1k/zip
         required: true   
               
 jobs:
